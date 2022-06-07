@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  web:
+    image: hello-world:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - 8088:8088
