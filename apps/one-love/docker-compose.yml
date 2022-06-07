@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  web:
+    image: getumbrel/btc-rpc-explorer:v3.3.0
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - 3002:3002
