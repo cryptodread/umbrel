@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   web:
-    image: hello-world:latest
+    image: chafouin/hello-world:latest
     restart: on-failure
     stop_grace_period: 1m
     ports:
