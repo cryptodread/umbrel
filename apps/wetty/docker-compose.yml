@@ -6,4 +6,4 @@ services:
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - 3069:3000
+      - 3000:3000
