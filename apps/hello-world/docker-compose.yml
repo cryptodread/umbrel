@@ -2,8 +2,8 @@ version: "3.7"
 
 services:
   web:
-    image: infrastructureascode/hello-world:latest
+    image: jfxs/hello-world:latest
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - 8088:80
+      - 8088:8080
